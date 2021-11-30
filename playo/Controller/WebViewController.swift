@@ -42,6 +42,7 @@ class WebViewController: UIViewController, WKNavigationDelegate{
         self.view.isUserInteractionEnabled = true
     }
     
+    // Function for loader animation start
     func addActivityIndicatorToView(activityIndicator: MLTontiatorView, view: UIView){
 
         self.view.addSubview(activityIndicator)

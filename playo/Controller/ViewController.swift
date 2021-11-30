@@ -11,6 +11,7 @@ import MLTontiatorView
 class ViewController: UIViewController {
     var MasterData:DataMaster?
     let viewActivitySmall = MLTontiatorView()
+    let refreshControl = UIRefreshControl()
     @IBOutlet weak var TabelViewC: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,10 @@ class ViewController: UIViewController {
         viewActivitySmall.spinnerColor = UIColor.white
         addActivityIndicatorToView(activityIndicator: viewActivitySmall, view: self.view)
         self.view.isUserInteractionEnabled = false
+        refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
+        refreshControl.tintColor = .white
+        TabelViewC.addSubview(refreshControl)
         APICaller.shared.GetMasterData { data in
             self.MasterData = data
             self.TabelViewC.reloadData()
@@ -49,6 +54,22 @@ class ViewController: UIViewController {
 
         activityIndicator.startAnimating()
 
+    }
+    @objc func refresh(_ sender: AnyObject) {
+        addActivityIndicatorToView(activityIndicator: viewActivitySmall, view: self.view)
+        self.view.isUserInteractionEnabled = false
+        APICaller.shared.GetMasterData { data in
+            self.MasterData = data
+            self.TabelViewC.reloadData()
+            self.view.isUserInteractionEnabled = true
+            self.viewActivitySmall.stopAnimating()
+            self.refreshControl.endRefreshing()
+            
+        } failure: { _ in
+            self.view.isUserInteractionEnabled = true
+            self.viewActivitySmall.stopAnimating()
+            self.refreshControl.endRefreshing()
+        }
     }
 
 }
