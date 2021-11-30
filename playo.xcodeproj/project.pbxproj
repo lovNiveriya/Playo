@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B610062755FC2500F0333A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610052755FC2500F0333A /* AppDelegate.swift */; };
+		33B610082755FC2500F0333A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610072755FC2500F0333A /* SceneDelegate.swift */; };
+		33B6100A2755FC2500F0333A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610092755FC2500F0333A /* ViewController.swift */; };
+		33B6100D2755FC2500F0333A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B6100B2755FC2500F0333A /* Main.storyboard */; };
+		33B6100F2755FC2700F0333A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B6100E2755FC2700F0333A /* Assets.xcassets */; };
+		33B610122755FC2700F0333A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B610102755FC2700F0333A /* LaunchScreen.storyboard */; };
+		33B6101D2755FC2700F0333A /* playoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6101C2755FC2700F0333A /* playoTests.swift */; };
+		33B610272755FC2700F0333A /* playoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610262755FC2700F0333A /* playoUITests.swift */; };
+		33B610292755FC2700F0333A /* playoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610282755FC2700F0333A /* playoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B610192755FC2700F0333A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B60FFA2755FC2500F0333A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B610012755FC2500F0333A;
+			remoteInfo = playo;
+		};
+		33B610232755FC2700F0333A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B60FFA2755FC2500F0333A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B610012755FC2500F0333A;
+			remoteInfo = playo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33B610022755FC2500F0333A /* playo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B610052755FC2500F0333A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33B610072755FC2500F0333A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33B610092755FC2500F0333A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33B6100C2755FC2500F0333A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33B6100E2755FC2700F0333A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33B610112755FC2700F0333A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33B610132755FC2700F0333A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B610182755FC2700F0333A /* playoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B6101C2755FC2700F0333A /* playoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playoTests.swift; sourceTree = "<group>"; };
+		33B610222755FC2700F0333A /* playoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B610262755FC2700F0333A /* playoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playoUITests.swift; sourceTree = "<group>"; };
+		33B610282755FC2700F0333A /* playoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B60FFF2755FC2500F0333A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B610152755FC2700F0333A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B6101F2755FC2700F0333A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B60FF92755FC2500F0333A = {
+			isa = PBXGroup;
+			children = (
+				33B610042755FC2500F0333A /* playo */,
+				33B6101B2755FC2700F0333A /* playoTests */,
+				33B610252755FC2700F0333A /* playoUITests */,
+				33B610032755FC2500F0333A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33B610032755FC2500F0333A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B610022755FC2500F0333A /* playo.app */,
+				33B610182755FC2700F0333A /* playoTests.xctest */,
+				33B610222755FC2700F0333A /* playoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B610042755FC2500F0333A /* playo */ = {
+			isa = PBXGroup;
+			children = (
+				33B610052755FC2500F0333A /* AppDelegate.swift */,
+				33B610072755FC2500F0333A /* SceneDelegate.swift */,
+				33B610092755FC2500F0333A /* ViewController.swift */,
+				33B6100B2755FC2500F0333A /* Main.storyboard */,
+				33B6100E2755FC2700F0333A /* Assets.xcassets */,
+				33B610102755FC2700F0333A /* LaunchScreen.storyboard */,
+				33B610132755FC2700F0333A /* Info.plist */,
+			);
+			path = playo;
+			sourceTree = "<group>";
+		};
+		33B6101B2755FC2700F0333A /* playoTests */ = {
+			isa = PBXGroup;
+			children = (
+				33B6101C2755FC2700F0333A /* playoTests.swift */,
+			);
+			path = playoTests;
+			sourceTree = "<group>";
+		};
+		33B610252755FC2700F0333A /* playoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33B610262755FC2700F0333A /* playoUITests.swift */,
+				33B610282755FC2700F0333A /* playoUITestsLaunchTests.swift */,
+			);
+			path = playoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B610012755FC2500F0333A /* playo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B6102C2755FC2700F0333A /* Build configuration list for PBXNativeTarget "playo" */;
+			buildPhases = (
+				33B60FFE2755FC2500F0333A /* Sources */,
+				33B60FFF2755FC2500F0333A /* Frameworks */,
+				33B610002755FC2500F0333A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = playo;
+			productName = playo;
+			productReference = 33B610022755FC2500F0333A /* playo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B610172755FC2700F0333A /* playoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B6102F2755FC2700F0333A /* Build configuration list for PBXNativeTarget "playoTests" */;
+			buildPhases = (
+				33B610142755FC2700F0333A /* Sources */,
+				33B610152755FC2700F0333A /* Frameworks */,
+				33B610162755FC2700F0333A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B6101A2755FC2700F0333A /* PBXTargetDependency */,
+			);
+			name = playoTests;
+			productName = playoTests;
+			productReference = 33B610182755FC2700F0333A /* playoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33B610212755FC2700F0333A /* playoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B610322755FC2700F0333A /* Build configuration list for PBXNativeTarget "playoUITests" */;
+			buildPhases = (
+				33B6101E2755FC2700F0333A /* Sources */,
+				33B6101F2755FC2700F0333A /* Frameworks */,
+				33B610202755FC2700F0333A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B610242755FC2700F0333A /* PBXTargetDependency */,
+			);
+			name = playoUITests;
+			productName = playoUITests;
+			productReference = 33B610222755FC2700F0333A /* playoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B60FFA2755FC2500F0333A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					33B610012755FC2500F0333A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					33B610172755FC2700F0333A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 33B610012755FC2500F0333A;
+					};
+					33B610212755FC2700F0333A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 33B610012755FC2500F0333A;
+					};
+				};
+			};
+			buildConfigurationList = 33B60FFD2755FC2500F0333A /* Build configuration list for PBXProject "playo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B60FF92755FC2500F0333A;
+			productRefGroup = 33B610032755FC2500F0333A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B610012755FC2500F0333A /* playo */,
+				33B610172755FC2700F0333A /* playoTests */,
+				33B610212755FC2700F0333A /* playoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B610002755FC2500F0333A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B610122755FC2700F0333A /* LaunchScreen.storyboard in Resources */,
+				33B6100F2755FC2700F0333A /* Assets.xcassets in Resources */,
+				33B6100D2755FC2500F0333A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B610162755FC2700F0333A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B610202755FC2700F0333A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B60FFE2755FC2500F0333A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B6100A2755FC2500F0333A /* ViewController.swift in Sources */,
+				33B610062755FC2500F0333A /* AppDelegate.swift in Sources */,
+				33B610082755FC2500F0333A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B610142755FC2700F0333A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B6101D2755FC2700F0333A /* playoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B6101E2755FC2700F0333A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B610292755FC2700F0333A /* playoUITestsLaunchTests.swift in Sources */,
+				33B610272755FC2700F0333A /* playoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B6101A2755FC2700F0333A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B610012755FC2500F0333A /* playo */;
+			targetProxy = 33B610192755FC2700F0333A /* PBXContainerItemProxy */;
+		};
+		33B610242755FC2700F0333A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B610012755FC2500F0333A /* playo */;
+			targetProxy = 33B610232755FC2700F0333A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33B6100B2755FC2500F0333A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B6100C2755FC2500F0333A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33B610102755FC2700F0333A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B610112755FC2700F0333A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B6102A2755FC2700F0333A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33B6102B2755FC2700F0333A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B6102D2755FC2700F0333A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84L4S3KG4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = playo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playo.playo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33B6102E2755FC2700F0333A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84L4S3KG4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = playo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playo.playo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33B610302755FC2700F0333A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84L4S3KG4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playo.playoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playo.app/playo";
+			};
+			name = Debug;
+		};
+		33B610312755FC2700F0333A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84L4S3KG4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playo.playoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playo.app/playo";
+			};
+			name = Release;
+		};
+		33B610332755FC2700F0333A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84L4S3KG4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playo.playoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = playo;
+			};
+			name = Debug;
+		};
+		33B610342755FC2700F0333A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84L4S3KG4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playo.playoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = playo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B60FFD2755FC2500F0333A /* Build configuration list for PBXProject "playo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B6102A2755FC2700F0333A /* Debug */,
+				33B6102B2755FC2700F0333A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B6102C2755FC2700F0333A /* Build configuration list for PBXNativeTarget "playo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B6102D2755FC2700F0333A /* Debug */,
+				33B6102E2755FC2700F0333A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B6102F2755FC2700F0333A /* Build configuration list for PBXNativeTarget "playoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B610302755FC2700F0333A /* Debug */,
+				33B610312755FC2700F0333A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B610322755FC2700F0333A /* Build configuration list for PBXNativeTarget "playoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B610332755FC2700F0333A /* Debug */,
+				33B610342755FC2700F0333A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B60FFA2755FC2500F0333A /* Project object */;
+}
