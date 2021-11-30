@@ -54,5 +54,15 @@ extension ViewController:UITableViewDataSource{
 
 //MARK: TabelView Delegate
 extension ViewController:UITableViewDelegate{
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "webView") as! WebViewController
+        nextViewController.webViewURL = MasterData?.articles?[indexPath.row].url ?? ""
+        nextViewController.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(nextViewController, animated: true)
+        //self.present(nextViewController, animated: true, completion: nil)
+    }
+    
+    
 }

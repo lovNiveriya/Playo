@@ -20,5 +20,6 @@ struct DataMaster:Codable
         var content:String?
         var title:String?
         var urlToImage:String?
+        var url:String?
     }
 }
