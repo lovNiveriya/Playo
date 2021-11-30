@@ -99,12 +99,11 @@
 		33B610042755FC2500F0333A /* playo */ = {
 			isa = PBXGroup;
 			children = (
-				33B610052755FC2500F0333A /* AppDelegate.swift */,
-				33B610072755FC2500F0333A /* SceneDelegate.swift */,
-				33B610092755FC2500F0333A /* ViewController.swift */,
-				33B6100B2755FC2500F0333A /* Main.storyboard */,
-				33B6100E2755FC2700F0333A /* Assets.xcassets */,
-				33B610102755FC2700F0333A /* LaunchScreen.storyboard */,
+				33B61038275600A200F0333A /* ApiCaller */,
+				33B61039275600B000F0333A /* SupportFiles */,
+				33B610352756008600F0333A /* Model */,
+				33B610362756008C00F0333A /* View */,
+				33B610372756009600F0333A /* Controller */,
 				33B610132755FC2700F0333A /* Info.plist */,
 			);
 			path = playo;
@@ -125,6 +124,47 @@
 				33B610282755FC2700F0333A /* playoUITestsLaunchTests.swift */,
 			);
 			path = playoUITests;
+			sourceTree = "<group>";
+		};
+		33B610352756008600F0333A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33B610362756008C00F0333A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33B6100B2755FC2500F0333A /* Main.storyboard */,
+				33B610102755FC2700F0333A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33B610372756009600F0333A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33B610092755FC2500F0333A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33B61038275600A200F0333A /* ApiCaller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ApiCaller;
+			sourceTree = "<group>";
+		};
+		33B61039275600B000F0333A /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				33B610072755FC2500F0333A /* SceneDelegate.swift */,
+				33B6100E2755FC2700F0333A /* Assets.xcassets */,
+				33B610052755FC2500F0333A /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
