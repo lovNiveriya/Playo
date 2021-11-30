@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EC4A19DB67AAC4D18A1A11E /* Pods_playo_playoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182CF026C7D7D2E39DB0882 /* Pods_playo_playoUITests.framework */; };
 		33B610062755FC2500F0333A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610052755FC2500F0333A /* AppDelegate.swift */; };
 		33B610082755FC2500F0333A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610072755FC2500F0333A /* SceneDelegate.swift */; };
 		33B6100A2755FC2500F0333A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610092755FC2500F0333A /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		33B6101D2755FC2700F0333A /* playoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6101C2755FC2700F0333A /* playoTests.swift */; };
 		33B610272755FC2700F0333A /* playoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610262755FC2700F0333A /* playoUITests.swift */; };
 		33B610292755FC2700F0333A /* playoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610282755FC2700F0333A /* playoUITestsLaunchTests.swift */; };
+		E10270F41897F91A80CA0EA6 /* Pods_playo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E2C6AAE2B094C8AC7DF689 /* Pods_playo.framework */; };
+		E9C1EA8A736ED4EDD6ECE134 /* Pods_playoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9EBC1EE1D31FF2FCAD587E /* Pods_playoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0182CF026C7D7D2E39DB0882 /* Pods_playo_playoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playo_playoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DC50C8031FAAECDB626CB9 /* Pods-playo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playo.debug.xcconfig"; path = "Target Support Files/Pods-playo/Pods-playo.debug.xcconfig"; sourceTree = "<group>"; };
+		18E2C6AAE2B094C8AC7DF689 /* Pods_playo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D834DA08285BDB3DB897CFA /* Pods-playo-playoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playo-playoUITests.release.xcconfig"; path = "Target Support Files/Pods-playo-playoUITests/Pods-playo-playoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25126914C352636FAE772839 /* Pods-playo-playoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playo-playoUITests.debug.xcconfig"; path = "Target Support Files/Pods-playo-playoUITests/Pods-playo-playoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		33B610022755FC2500F0333A /* playo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B610052755FC2500F0333A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33B610072755FC2500F0333A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		33B610222755FC2700F0333A /* playoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B610262755FC2700F0333A /* playoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playoUITests.swift; sourceTree = "<group>"; };
 		33B610282755FC2700F0333A /* playoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41DD26E3D25E0ADBB37F4283 /* Pods-playoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playoTests.release.xcconfig"; path = "Target Support Files/Pods-playoTests/Pods-playoTests.release.xcconfig"; sourceTree = "<group>"; };
+		94020E9C0E44103F2D1C8B23 /* Pods-playoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playoTests.debug.xcconfig"; path = "Target Support Files/Pods-playoTests/Pods-playoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA9EBC1EE1D31FF2FCAD587E /* Pods_playoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49300C83A8CC1C11D492F8A /* Pods-playo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playo.release.xcconfig"; path = "Target Support Files/Pods-playo/Pods-playo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10270F41897F91A80CA0EA6 /* Pods_playo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C1EA8A736ED4EDD6ECE134 /* Pods_playoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC4A19DB67AAC4D18A1A11E /* Pods_playo_playoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ADEE2FCE07F67D4CA72390B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16DC50C8031FAAECDB626CB9 /* Pods-playo.debug.xcconfig */,
+				C49300C83A8CC1C11D492F8A /* Pods-playo.release.xcconfig */,
+				25126914C352636FAE772839 /* Pods-playo-playoUITests.debug.xcconfig */,
+				1D834DA08285BDB3DB897CFA /* Pods-playo-playoUITests.release.xcconfig */,
+				94020E9C0E44103F2D1C8B23 /* Pods-playoTests.debug.xcconfig */,
+				41DD26E3D25E0ADBB37F4283 /* Pods-playoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		33B60FF92755FC2500F0333A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				33B6101B2755FC2700F0333A /* playoTests */,
 				33B610252755FC2700F0333A /* playoUITests */,
 				33B610032755FC2500F0333A /* Products */,
+				2ADEE2FCE07F67D4CA72390B /* Pods */,
+				9F735D232C1BAC5315225B2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +198,16 @@
 			path = SupportFiles;
 			sourceTree = "<group>";
 		};
+		9F735D232C1BAC5315225B2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E2C6AAE2B094C8AC7DF689 /* Pods_playo.framework */,
+				0182CF026C7D7D2E39DB0882 /* Pods_playo_playoUITests.framework */,
+				BA9EBC1EE1D31FF2FCAD587E /* Pods_playoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33B6102C2755FC2700F0333A /* Build configuration list for PBXNativeTarget "playo" */;
 			buildPhases = (
+				E2F04CE9A19DBAACF437F0A4 /* [CP] Check Pods Manifest.lock */,
 				33B60FFE2755FC2500F0333A /* Sources */,
 				33B60FFF2755FC2500F0333A /* Frameworks */,
 				33B610002755FC2500F0333A /* Resources */,
+				3F287EA01541B90E50225161 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33B6102F2755FC2700F0333A /* Build configuration list for PBXNativeTarget "playoTests" */;
 			buildPhases = (
+				05C66FB7AD10B78E1E54AC91 /* [CP] Check Pods Manifest.lock */,
 				33B610142755FC2700F0333A /* Sources */,
 				33B610152755FC2700F0333A /* Frameworks */,
 				33B610162755FC2700F0333A /* Resources */,
@@ -209,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33B610322755FC2700F0333A /* Build configuration list for PBXNativeTarget "playoUITests" */;
 			buildPhases = (
+				FE84B92451B61F5BE9760B5C /* [CP] Check Pods Manifest.lock */,
 				33B6101E2755FC2700F0333A /* Sources */,
 				33B6101F2755FC2700F0333A /* Frameworks */,
 				33B610202755FC2700F0333A /* Resources */,
+				1BDDE6205D61BFABC1FB0088 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +338,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05C66FB7AD10B78E1E54AC91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-playoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BDDE6205D61BFABC1FB0088 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-playo-playoUITests/Pods-playo-playoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-playo-playoUITests/Pods-playo-playoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-playo-playoUITests/Pods-playo-playoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F287EA01541B90E50225161 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-playo/Pods-playo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-playo/Pods-playo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-playo/Pods-playo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F04CE9A19DBAACF437F0A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-playo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE84B92451B61F5BE9760B5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-playo-playoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33B60FFE2755FC2500F0333A /* Sources */ = {
@@ -474,6 +623,7 @@
 		};
 		33B6102D2755FC2700F0333A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DC50C8031FAAECDB626CB9 /* Pods-playo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -502,6 +652,7 @@
 		};
 		33B6102E2755FC2700F0333A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49300C83A8CC1C11D492F8A /* Pods-playo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -530,6 +681,7 @@
 		};
 		33B610302755FC2700F0333A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94020E9C0E44103F2D1C8B23 /* Pods-playoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +707,7 @@
 		};
 		33B610312755FC2700F0333A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DD26E3D25E0ADBB37F4283 /* Pods-playoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +733,7 @@
 		};
 		33B610332755FC2700F0333A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25126914C352636FAE772839 /* Pods-playo-playoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -603,6 +757,7 @@
 		};
 		33B610342755FC2700F0333A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D834DA08285BDB3DB897CFA /* Pods-playo-playoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
