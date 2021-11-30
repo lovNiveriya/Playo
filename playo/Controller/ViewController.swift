@@ -6,22 +6,48 @@
 //
 
 import UIKit
+import MLTontiatorView
 
 class ViewController: UIViewController {
     var MasterData:DataMaster?
+    let viewActivitySmall = MLTontiatorView()
     @IBOutlet weak var TabelViewC: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         TabelViewC.delegate = self
         TabelViewC.dataSource = self
         self.TabelViewC.estimatedRowHeight = UITableView.automaticDimension
+        viewActivitySmall.spinnerSize = .MLSpinnerSizeMedium
+        viewActivitySmall.spinnerColor = UIColor.white
+        addActivityIndicatorToView(activityIndicator: viewActivitySmall, view: self.view)
+        self.view.isUserInteractionEnabled = false
         APICaller.shared.GetMasterData { data in
             self.MasterData = data
             self.TabelViewC.reloadData()
+            self.view.isUserInteractionEnabled = true
+            self.viewActivitySmall.stopAnimating()
             
         } failure: { _ in
-            
+            self.view.isUserInteractionEnabled = true
+            self.viewActivitySmall.stopAnimating()
         }
+
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.tintColor = .white
+        self.navigationController?.navigationBar.backgroundColor = .black
+    }
+    
+    func addActivityIndicatorToView(activityIndicator: MLTontiatorView, view: UIView){
+
+        self.view.addSubview(activityIndicator)
+
+        viewActivitySmall.translatesAutoresizingMaskIntoConstraints = false
+        view.addConstraint(NSLayoutConstraint(item: activityIndicator, attribute: NSLayoutConstraint.Attribute.centerX, relatedBy: NSLayoutConstraint.Relation.equal, toItem: view, attribute: NSLayoutConstraint.Attribute.centerX, multiplier: 1, constant: 0))
+        view.addConstraint(NSLayoutConstraint(item: activityIndicator, attribute: NSLayoutConstraint.Attribute.centerY, relatedBy: NSLayoutConstraint.Relation.equal, toItem: view, attribute: NSLayoutConstraint.Attribute.centerY, multiplier: 1, constant: 0))
+
+        activityIndicator.startAnimating()
 
     }
 
@@ -43,7 +69,6 @@ extension ViewController:UITableViewDataSource{
         cell.NewsImage.layer.borderWidth = 1.0
         cell.NewsImage.layer.masksToBounds = false
         cell.NewsImage.layer.borderColor = UIColor.white.cgColor
-        //cell.NewsImage.layer.cornerRadius =  cell.NewsImage.frame.size.width - 50
         cell.NewsImage.clipsToBounds = true
         
         return cell
@@ -61,7 +86,6 @@ extension ViewController:UITableViewDelegate{
         nextViewController.webViewURL = MasterData?.articles?[indexPath.row].url ?? ""
         nextViewController.modalPresentationStyle = .fullScreen
         self.navigationController?.pushViewController(nextViewController, animated: true)
-        //self.present(nextViewController, animated: true, completion: nil)
     }
     
     

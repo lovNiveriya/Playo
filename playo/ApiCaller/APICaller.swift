@@ -17,7 +17,6 @@ struct APICaller{
     public func GetMasterData(sucess:@escaping (DataMaster)->Void,failure:@escaping (Bool)->()){
         AF.request("\(APICaller.BaseUrl)", method: .get, encoding: JSONEncoding.default)
                 .responseJSON { response in
-                    print(response)
                     switch response.result {
 
                     case .success( _):

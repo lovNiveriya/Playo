@@ -7,6 +7,7 @@ target 'playo' do
 
   # Pods for playo
    pod 'Alamofire', '~> 5.2'
+   pod 'MLTontiatorView', '~> 1.1.0'
 
   target 'playoTests' do
     inherit! :search_paths
