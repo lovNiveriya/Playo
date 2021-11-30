@@ -1,16 +1,22 @@
 PODS:
   - Alamofire (5.4.4)
+  - MLTontiatorView (1.1.2):
+    - MLTontiatorView/Core (= 1.1.2)
+  - MLTontiatorView/Core (1.1.2)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - MLTontiatorView (~> 1.1.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - MLTontiatorView
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  MLTontiatorView: 639d587327556bfa7abe6a60eb18306a7540add3
 
-PODFILE CHECKSUM: 1838e50b68ce593b0a39b083299ef041bc7334fb
+PODFILE CHECKSUM: 31675c3ef91c66a52c2ad2282f2491d0d71bcc20
 
 COCOAPODS: 1.11.2

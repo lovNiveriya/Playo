@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0EC4A19DB67AAC4D18A1A11E /* Pods_playo_playoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182CF026C7D7D2E39DB0882 /* Pods_playo_playoUITests.framework */; };
+		33747643275607670044A140 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33747642275607670044A140 /* APICaller.swift */; };
+		3374764827560D230044A140 /* MasterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374764727560D230044A140 /* MasterModel.swift */; };
+		3374764A275658900044A140 /* newsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33747649275658900044A140 /* newsCell.swift */; };
+		3374764E275659B10044A140 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374764D275659B10044A140 /* Extension.swift */; };
+		3374765227569A3B0044A140 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374765127569A3B0044A140 /* WebViewController.swift */; };
 		33B610062755FC2500F0333A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610052755FC2500F0333A /* AppDelegate.swift */; };
 		33B610082755FC2500F0333A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610072755FC2500F0333A /* SceneDelegate.swift */; };
 		33B6100A2755FC2500F0333A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B610092755FC2500F0333A /* ViewController.swift */; };
@@ -44,6 +49,11 @@
 		18E2C6AAE2B094C8AC7DF689 /* Pods_playo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D834DA08285BDB3DB897CFA /* Pods-playo-playoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playo-playoUITests.release.xcconfig"; path = "Target Support Files/Pods-playo-playoUITests/Pods-playo-playoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		25126914C352636FAE772839 /* Pods-playo-playoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playo-playoUITests.debug.xcconfig"; path = "Target Support Files/Pods-playo-playoUITests/Pods-playo-playoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33747642275607670044A140 /* APICaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		3374764727560D230044A140 /* MasterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterModel.swift; path = playo/SupportFiles/Model/MasterModel.swift; sourceTree = SOURCE_ROOT; };
+		33747649275658900044A140 /* newsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsCell.swift; sourceTree = "<group>"; };
+		3374764D275659B10044A140 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3374765127569A3B0044A140 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		33B610022755FC2500F0333A /* playo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B610052755FC2500F0333A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33B610072755FC2500F0333A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,8 +111,15 @@
 				94020E9C0E44103F2D1C8B23 /* Pods-playoTests.debug.xcconfig */,
 				41DD26E3D25E0ADBB37F4283 /* Pods-playoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		3374764C275659970044A140 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3374764D275659B10044A140 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		33B60FF92755FC2500F0333A = {
@@ -130,6 +147,7 @@
 		33B610042755FC2500F0333A /* playo */ = {
 			isa = PBXGroup;
 			children = (
+				3374764C275659970044A140 /* Extension */,
 				33B61038275600A200F0333A /* ApiCaller */,
 				33B61039275600B000F0333A /* SupportFiles */,
 				33B610352756008600F0333A /* Model */,
@@ -160,6 +178,7 @@
 		33B610352756008600F0333A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3374764727560D230044A140 /* MasterModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +195,8 @@
 		33B610372756009600F0333A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3374765127569A3B0044A140 /* WebViewController.swift */,
+				33747649275658900044A140 /* newsCell.swift */,
 				33B610092755FC2500F0333A /* ViewController.swift */,
 			);
 			path = Controller;
@@ -184,6 +205,7 @@
 		33B61038275600A200F0333A /* ApiCaller */ = {
 			isa = PBXGroup;
 			children = (
+				33747642275607670044A140 /* APICaller.swift */,
 			);
 			path = ApiCaller;
 			sourceTree = "<group>";
@@ -447,9 +469,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3374764A275658900044A140 /* newsCell.swift in Sources */,
 				33B6100A2755FC2500F0333A /* ViewController.swift in Sources */,
+				3374764E275659B10044A140 /* Extension.swift in Sources */,
+				3374764827560D230044A140 /* MasterModel.swift in Sources */,
 				33B610062755FC2500F0333A /* AppDelegate.swift in Sources */,
 				33B610082755FC2500F0333A /* SceneDelegate.swift in Sources */,
+				33747643275607670044A140 /* APICaller.swift in Sources */,
+				3374765227569A3B0044A140 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
